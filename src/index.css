@@ -102,8 +102,13 @@ a.hover{
 }
 
 .btn-primary{
-  background: var(--color-primary);
-  color: var(--color-bg);
+  background: var(--color-bg-variant);
+  border-color: transparent;
+}
+
+.btn-primary:hover{
+  background: transparent;
+  border-color: var(--color-bg-variant);
 }
 
 img{
